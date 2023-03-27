@@ -1,12 +1,9 @@
-import org.junit.Test;
-
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-import static java.util.Collection.*;
-import static org.junit.Assert.assertEquals;
 
 public class RectangleAreaComparatorTest {
 
@@ -25,8 +22,8 @@ public class RectangleAreaComparatorTest {
     // Сортируем прямоугольники по площади
     Collections.sort(rectangles, new RectangleAreaComparator());
 
-    assertEquals(r3, rectangles.get(0));
-    assertEquals(r2, rectangles.get(1));
-    assertEquals(r1, rectangles.get(2));
+    Assertions.assertEquals(r3, rectangles.get(0));
+    Assertions.assertEquals(r2, rectangles.get(1));
+    Assertions.assertEquals(r1, rectangles.get(2));
   }
 }

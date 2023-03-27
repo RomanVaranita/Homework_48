@@ -12,8 +12,8 @@ public class RectangleAreaComparatorTest {
 
   @Test
   public void testComparator() {
-    Rectangle r1 = new Rectangle(3, 5);
-    Rectangle r2 = new Rectangle(4, 6);
+    Rectangle r1 = new Rectangle(4, 5);
+    Rectangle r2 = new Rectangle(3, 6);
     Rectangle r3 = new Rectangle(2, 8);
 
     List<Rectangle> rectangles = new ArrayList<>();

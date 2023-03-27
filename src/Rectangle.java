@@ -26,8 +26,5 @@ public class Rectangle {
   }
   public double getArea() {
     return length * width;
+   }
   }
-  public double getPerimeter() {
-    return 2 * (length + width);
-  }
-}

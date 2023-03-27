@@ -20,7 +20,7 @@ public class RectangleAreaComparatorTest {
 
 
     // Сортируем прямоугольники по площади
-    Collections.sort(rectangles, new RectangleAreaComparator());
+    rectangles.sort(new RectangleAreaComparator());
 
     Assertions.assertEquals(r3, rectangles.get(0));
     Assertions.assertEquals(r2, rectangles.get(1));
